@@ -1054,45 +1054,90 @@ a {
 .cid-sFF0SGinka .mbr-section-btn {
   color: #8e8d8a;
 }
-.cid-sFF3eJNZDT {
+.cid-ticHdCE6FK {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+.cid-ticHdCE6FK .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-ticHdCE6FK .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-ticHdCE6FK .mbr-section-subtitle {
+  color: #65c6d4;
+}
+.cid-ticHdCE6FK .mbr-section-title {
+  color: #65c6d4;
+}
+.cid-ticH4m62oQ {
   padding-top: 6rem;
   padding-bottom: 6rem;
   background-color: #ffffff;
 }
-.cid-sFF3eJNZDT .item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 2rem;
+.cid-ticH4m62oQ .mbr-fallback-image.disabled {
+  display: none;
 }
-.cid-sFF3eJNZDT .icon-box {
-  background: #e85a4f;
-  width: 60px;
-  min-width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  margin-right: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.cid-sFF3eJNZDT .mbr-iconfont {
-  font-size: 2rem;
-  color: #ffffff;
+.cid-ticH4m62oQ .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
 }
 @media (max-width: 991px) {
-  .cid-sFF3eJNZDT .card {
-    margin-bottom: 2rem;
-  }
-  .cid-sFF3eJNZDT .card-wrapper {
-    margin-bottom: 2rem;
+  .cid-ticH4m62oQ .image-wrapper {
+    margin-bottom: 1rem;
   }
 }
-.cid-sFF3eJNZDT .card-title,
-.cid-sFF3eJNZDT .card-box {
-  color: #000000;
+.cid-ticH4m62oQ .row {
+  flex-direction: row-reverse;
 }
-.cid-sFF3eJNZDT .icon-text {
-  color: #8e8d8a;
+.cid-ticH4m62oQ img {
+  width: 100%;
+}
+.cid-ticH4m62oQ .mbr-text {
+  color: #65c6d4;
+}
+.cid-ticH5EdxGz {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-ticH5EdxGz .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-ticH5EdxGz .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 991px) {
+  .cid-ticH5EdxGz .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-ticH5EdxGz .row {
+  flex-direction: row-reverse;
+}
+.cid-ticH5EdxGz img {
+  width: 100%;
+}
+.cid-ticH5EdxGz .mbr-text {
+  color: #65c6d4;
 }
 .cid-sFF3kfZheU {
   padding-top: 8rem;
