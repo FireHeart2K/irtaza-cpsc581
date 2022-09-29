@@ -32,7 +32,8 @@
       "nameSelectPreset": "portfolio",
       "presetSourceTheme": "mobirise5",
       "additionalSetColors": [
-        "#e85a4f"
+        "#e85a4f",
+        "#eae7dc"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -54,9 +55,10 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 28,
+    "uniqCompNum": 40,
     "versionPublish": "5.6.13",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishChangesOnly": false
   },
   "pages": {
     "index.html": {
@@ -519,6 +521,73 @@
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"header11\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background7.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#eae7dc\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{imageWidth}} image-wrapper\">\n                <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/i4.jpg\" alt=\"Irtaza Ansari\">\n            </div>\n            <div class=\"col-12 col-md\">\n                <div class=\"text-wrapper text-center\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                        <b>\n</b><div><b><br></b></div><div><b>Hi, I'm Irtaza Ansari and I'm a Computer Scientist</b></div></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">As a child saw the dot com boom bubble coupled with The Matrix Trilogy resulted in unconditional love for computers and related technologies. With time after many years of soul searching, I took the red pill of Computer Science.</p>\n                    <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"index.html#gallery5-3\" data-app-placeholder=\"Type Text\">My Jobs</a> <a class=\"btn btn-primary\" href=\"index.html#form4-6\" data-app-placeholder=\"Type Text\">Contacts</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sFF0SGinka",
           "_anchor": "header11-1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".row": {
+              "flex-direction": "row-reverse"
+            },
+            "img": {
+              "width": "100%"
+            }
+          },
+          "_name": "image3",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image3\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/main.png\" alt=\"Mobirise Website Builder\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-description\">\n                        10 Concept Ideas</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tiN7Odv8WT",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image3-13"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#eae7dc\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    10 Concept Ideas</h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">1.\tGALACTIC NAME GENERATOR. This is a very simple application where upon pressing “My Galactic Name” generates a random galactic name which includes galactic names based on all sorts of materials but the scope of names dictionary is not limited to entities such as movies, tv shows, comics, cartoons, books and newspapers. This application would have been simply for amusement purposes and would not serve any real-life purpose.\n<br>\n<br>2.\tFASTEST FINGER CLICKING GAME. A simple game replicating/inspired from the concept from “Fastest Finger First” sourced from “Who Want’s To Be A Millionaire”. The difference between the real show and “Fastest Finger Clicking Game” is that unlike the real show, the competitor here is time and there is no finite point and one can continue clicking until the user stops clicking for 5 consecutive seconds. Elapsed time is displayed on the top right while the score or number of clicks is displayed on the top left.\n<br>\n<br>3.\tBOUNCING BALL GAME. A user interactive simple game, inspired from the concept of “Flappy Bird”. Unlike the real “Flappy Bird” game, the bird is replaced with a ball, the user has to pass only through one sided obstacle, either top or bottom, for progression in game and lastly the user has to press the “BOUNCE” button at the bottom for the ball to bounce as opposed to tapping anywhere on the screen.\n<br>\n<br>4.\tAVERAGE CALCULATOR. This is a basic mathematical based application that might have weakly served a real-life purpose. Here the user is required to enter integers or decimals in the empty fields and upon pressing the “AVERAGE” button, all the inputs are averaged out and the calculated average integer or decimal is displayed on the last field, right above the “AVERAGE” button.\n<br>\n<br>5.\tRANDOM PASSWORD GENERATOR. This is a computer science based rea-life applicable application where upon pressing the “GENERATE PASSWORD”, a random password of random length including alphanumeric and special characters is generated. Though this application at this stage of development would fail the cryptographic concepts such as password strength.\n<br>\n<br>6.\tBUBBLE POPPER. A simple amusement-based application where random bubbles of random sizes and colours recursively appear on the screen and appear in a manner as if one is travelling through these bubbles or vice versa. Upon pressing the “POP” button, a random bubble on the screen pops.\n<br>\n<br>7.\tSPINNER. A simple amusement-based application where a binary-coloured wheel spins by pressing the “SPIN” button located at the bottom right. Potentially the spin speed may be pressure or time sensitive in a manner that harder the user presses the button the faster it spins or the longer the user presses the button the faster it spins. Eventually, upon no input from the user, the spinning wheel comes to a complete halt.\n<br>\n<br>8.\tDICE ROLL. A simple interactive application which may potentially be classified as either a game or an aid to any related game. Here upon pressing of the “ROLL DICE” button located and the top right of the screen, the shaft holding the dice is lifted. The dice, as a subsequence slides down, bounces at least once and lands to a number on the dice which can serve as a number output for just amusement or to use that number output for any applicable move within any game.\n<br>\n<br>9.\tSCREEN BLINKER. An interactive application which ranges from the scope of amusement to real-life application. With this application, the user has the option to click one of the four available buttons. Each button serves a unique purpose related to respective names of the buttons. For elaboration, “FLASH LIGHT” is a generic flash light where the screen is turned complete white for 60 seconds before displaying the buttons again; “EMERGENCY LIGHT” mimics the flashing pattern of 911 vehicles upon call of duty; “PARTY LIGHT” mimics the typical clubbing lights blinking pattern and lastly “MOTION LIGHT” is the screen blinking option dependent upon the motion of the cursor of the mouse on a computer or the physical motion of device based on proximity sensors.\n<br>\n<br>10.\tWAVES CREATOR. This application may be considered as amusement application though it may also server as a psychology application with purposes of destress and mental relaxation. Upon pressing of the “WAVE” button, a wave is generated in 360 degrees direction and that generated wave mimics the natural phenomenon of damped harmonic motion which includes a predecessor wave colliding with a wave to also mimic ripples in real life.&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tiN5jjNPDA",
+          "_anchor": "content5-u",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
