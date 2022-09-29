@@ -33,7 +33,8 @@
       "presetSourceTheme": "mobirise5",
       "additionalSetColors": [
         "#e85a4f",
-        "#eae7dc"
+        "#eae7dc",
+        "#029187"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -55,7 +56,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 44,
+    "uniqCompNum": 45,
     "versionPublish": "5.6.13",
     "screenshot": "screenshot.png",
     "publishChangesOnly": false
@@ -738,9 +739,78 @@
           },
           "_name": "content5",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#eae7dc\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    10 Sketches for Clarity</h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">1.\tThis is an optimistic idea for the random password generator idea. Upon pressing the “LOCK ME!” on the introduction scree, user is then taken to the password generation screen where upon pressing of the “ROLL THE DICE” button located on the bottom right of the screen a random password is generated the field where the stars (asterisks) are present. The generated password may have a random length between 3 to 12 as well as a random selection of character between 0 to 9, A to Z, a to z and non-alphanumeric characters such as punctuation marks and backets. The bottom right is a button named “EXPORT” with the purpose of exporting the generated password.\n<br>\n<br>2.\tThis is a relatively more realistic idea compared to the previous where the user may select the complexity of the password using the three buttons on the top “EASY”, “MEDIUM” or “HARD”. Upon pressing the “GENERATE PASSWORD”, a random password is generated. With each difficulty more variations and lengths are included which consist of alphanumeric and non-alphanumeric characters. Upon generation of each password, its respective stats are displayed at the bottom of the screen.\n<br>\n<br>3.\tThis random password generator is an input randomizer. It takes three strings of alphanumeric and or non-alphanumeric characters, randomizes characters from all three strings and upon pressing of the “GENERATE” button, a password of random length is generated and displayed below\n<br>\n<br>4.\tA random password generator that provides more control to the user where the user has options to select from which category should the password include characters from such as alphabets, numbers, special characters, upper case, lower case as well as the option to choose the length of character of the generated password. Upon pressing of the “GENERATE” button, the random password is generated based on the features selected.\n<br>\n<br>5.\tA more of an interactive password generator where there a random set of characters appears on screen recursively for 12 times. Upon each iteration, only one of the displayed characters may be selected. Upon the completion of the 12th iteration of the random sequence, the selected characters from the 1st iteration to the 12th iteration are concatenated as a string sequence which results in the generation of the random password. For succession from the present iteration to the next, the arrow button at the bottom right of the screen is to be pressed.\n<br>\n<br>6.\tA potentially game like password generator where upon pressing of the “SHOOT ME” button, a ball is launched between the constantly rotating angle between the specified two lines marked by the arrow heads. Once the balls is launched, the “SHOOT” me button is replaced by a random character. Each side of the octagon has 1 random character and once touched, is replaced by another random character. The ball goes through a damped harmonic motion through collision and each time the ball touches a side, that character is recorded until the ball stops moving. Thus, the sequence of all characters that the ball touched becomes a string resulting in the random generated password.\n<br>\n<br>7.\tA unique password generator where screen is full of random coloured circles with random sizes. Only 1 circle is to be selected and upon pressing the “BURST US !!” button, the spelling of selected colour is replaced with visually similar looking character as Aqua with @Qu@ and the resultant is the generated password.\n<br>\n<br>8.\tTakes a pre-existing password, changes random upper to lower case and or vice versa, replacing alphabets with visually similar character, adds K or Y2K denoting the 1000s or 2000s series and generates a random password by pressing the “RENOVATE ME” button.\n<br>\n<br>9.\tA technical password generator where the complexity and strength of the generated password is based on the amount of CPU and RAM percentage allocated. The random password is generated by pressing the “KABOOM” button.\n<br>\n<br>10.\tTakes an input of two alphanumeric strings, replaces characters with similarly looking random characters, randomizes the order of characters and concatenated the 2 resulting strings into a single which becomes the random generated password. The process is triggered by Pressing the “MEMORY ANESIA” text-like button.\n<br>\n<br>11.\tA password generator that might classify as an extremely basic machine learning based password generator where each succession of the password generation increases the complexity of the generated password by at least 5%.&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#eae7dc\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    10 Sketches for Clarity</h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">1.\tThis is an optimistic idea for the random password generator idea. Upon pressing the “LOCK ME!” on the introduction scree, user is then taken to the password generation screen where upon pressing of the “ROLL THE DICE” button located on the bottom right of the screen a random password is generated the field where the stars (asterisks) are present. The generated password may have a random length between 3 to 12 as well as a random selection of character between 0 to 9, A to Z, a to z and non-alphanumeric characters such as punctuation marks and backets. The bottom right is a button named “EXPORT” with the purpose of exporting the generated password.\n<br>\n<br>2.\tThis is a relatively more realistic idea compared to the previous where the user may select the complexity of the password using the three buttons on the top “EASY”, “MEDIUM” or “HARD”. Upon pressing the “GENERATE PASSWORD”, a random password is generated. With each difficulty more variations and lengths are included which consist of alphanumeric and non-alphanumeric characters. Upon generation of each password, its respective stats are displayed at the bottom of the screen.\n<br>\n<br>3.\tThis random password generator is an input randomizer. It takes three strings of alphanumeric and or non-alphanumeric characters, randomizes characters from all three strings and upon pressing of the “GENERATE” button, a password of random length is generated and displayed below\n<br>\n<br>4.\tA random password generator that provides more control to the user where the user has options to select from which category should the password include characters from such as alphabets, numbers, special characters, upper case, lower case as well as the option to choose the length of character of the generated password. Upon pressing of the “GENERATE” button, the random password is generated based on the features selected.\n<br>\n<br>5.\tA more of an interactive password generator where there a random set of characters appears on screen recursively for 12 times. Upon each iteration, only one of the displayed characters may be selected. Upon the completion of the 12th iteration of the random sequence, the selected characters from the 1st iteration to the 12th iteration are concatenated as a string sequence which results in the generation of the random password. For succession from the present iteration to the next, the arrow button at the bottom right of the screen is to be pressed.\n<br>\n<br>6.\tA potentially game like password generator where upon pressing of the “SHOOT ME” button, a ball is launched between the constantly rotating angle between the specified two lines marked by the arrow heads. Once the balls is launched, the “SHOOT” me button is replaced by a random character. Each side of the octagon has 1 random character and once touched, is replaced by another random character. The ball goes through a damped harmonic motion through collision and each time the ball touches a side, that character is recorded until the ball stops moving. Thus, the sequence of all characters that the ball touched becomes a string resulting in the random generated password.\n<br>\n<br>7.\tA unique password generator where screen is full of random coloured circles with random sizes. Only 1 circle is to be selected and upon pressing the “BURST US !!” button, the spelling of selected colour is replaced with visually similar looking character as Aqua with @Qu@ and the resultant is the generated password.\n<br>\n<br>8.\tTakes a pre-existing password, changes random upper to lower case and or vice versa, replacing alphabets with visually similar character, adds K or Y2K denoting the 1000s or 2000s series and generates a random password by pressing the “RENOVATE ME” button.\n<br>\n<br>9.\tA technical password generator where the complexity and strength of the generated password is based on the amount of CPU and RAM percentage allocated. The random password is generated by pressing the “KABOOM” button.\n<br>\n<br>10.\tTakes an input of two alphanumeric strings, replaces characters with similarly looking random characters, randomizes the order of characters and concatenated the 2 resulting strings into a single which becomes the random generated password. The process is triggered by Pressing the “MEMORY ANESIA” text-like button.\n<br>\n<br>11.\tA password generator that might classify as an extremely basic machine learning based password generator where each succession of the password generation increases the complexity of the generated password by at least 5%.&nbsp;<br><br><br>In the end, our group decided to collaborate on a sketch of to combine our ideas. Our combination of ideas resulted in sketch number 11. Sketch number 11 is a password generator that allows a user to increase the length of the password by repeatedly clicking the generate password button and customize the password by checking off the options to include upper letters, numbers, and special characters. So, when an a user is angry repeated button pressing will be a great outlet for emotions while solving the issue with a new password!<br>\n<br>The idea is with more interaction with the button the stronger and more complex the password becomes, thus providing a great first line of defense against unauthorized access. The stronger the password, the more protected one’s computer will be from malicious entities. We ended up choosing this because the idea was a unique spin on the traditional password generator that provided the same real-life utility at the same time as being a creative use of button interaction. For the technical components, the project with constructed with best practice use of JavaScript, CSS, and HTML. The team used all aspects in combination to create the working demo.<br><br><br></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "tiNugic2wh",
           "_anchor": "content5-14",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#40b0bf"
+            }
+          },
+          "_name": "content5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#eae7dc\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-1\">\n                    GitHub</h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tiNBlyLAnV",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-18"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@fullWidth)": {
+              ".text-wrapper": {
+                "padding": "1rem"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            "img": {
+              "width": "100%"
+            },
+            "@media (min-width: 992px)": {
+              ".text-wrapper": {
+                "padding": "2rem"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#65c6d4"
+            },
+            ".mbr-text": {
+              "color": "#8e8d8a",
+              "text-align": "left"
+            }
+          },
+          "_name": "image1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image1\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"row align-items-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/i1.jpg\" alt=\"The Hassan II Mosque is a mosque in Casablanca, Morocco.\">\n                    <p class=\"mbr-description mbr-fonts-style pt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-description\">\n                    Image Description</p>\n                </div>\n            </div>\n            <div class=\"col-12\" mbr-class=\"{'col-lg' : !fullWidth, 'col-lg-4' : fullWidth &amp;&amp; textWidth >= 6, 'col-lg-6' : fullWidth &amp;&amp; textWidth <= 5}\">\n                <div class=\"text-wrapper\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>My Contribution</b></h3>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">I contributed to the group on multiple aspects which consist of concept sketches, developing and experimentation of the backbone code approximately 70%, partially editing and creating the video in its dramatic sequence, acting, a minor quantity of management,&nbsp;<br></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sFF75ZhH2d",
+          "_anchor": "image1-b",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -790,55 +860,6 @@
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"video2\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"6\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"6\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Video\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"../_images/background2.jpg\" title=\"Image\">\n            <input type=\"color\" value=\"#ffffff\" title=\"Color\" selected>\n            <input type=\"video\" value=\"https://vimeo.com/428046504\" title=\"Video\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h4 class=\"mbr-section-title mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                <b>RAGE Random Password Generator</b></h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-0 mt-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\"><b>DEMO</b></h5>\n        </div>\n        <div class=\"row justify-content-center mt-4\">\n            <div class=\"col-12 col-md-{{textWidth}} video-block\">\n                <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://youtu.be/yXm_Bwy2LDE?loop=0&autoplay=0\"></iframe>\n                </div>\n                <p class=\"mbr-text pt-2 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showDescription\" data-app-selector=\".mbr-text\"></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "tiNwBCVGqB",
           "_anchor": "video2-17",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 1rem)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@fullWidth)": {
-              ".text-wrapper": {
-                "padding": "1rem"
-              }
-            },
-            "@media (max-width: 991px)": {
-              ".image-wrapper": {
-                "margin-bottom": "1rem"
-              }
-            },
-            "img": {
-              "width": "100%"
-            },
-            "@media (min-width: 992px)": {
-              ".text-wrapper": {
-                "padding": "2rem"
-              }
-            },
-            ".mbr-section-title": {
-              "color": "#65c6d4"
-            },
-            ".mbr-text": {
-              "color": "#8e8d8a",
-              "text-align": "left"
-            }
-          },
-          "_name": "image1",
-          "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image1\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"row align-items-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/i1.jpg\" alt=\"The Hassan II Mosque is a mosque in Casablanca, Morocco.\">\n                    <p class=\"mbr-description mbr-fonts-style pt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-description\">\n                    Image Description</p>\n                </div>\n            </div>\n            <div class=\"col-12\" mbr-class=\"{'col-lg' : !fullWidth, 'col-lg-4' : fullWidth &amp;&amp; textWidth >= 6, 'col-lg-6' : fullWidth &amp;&amp; textWidth <= 5}\">\n                <div class=\"text-wrapper\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                        <b>About Me</b></h3>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">My name is Irtaza and I'm a 4th year undergraduate student majoring in computer science at the University of Calgary. I'm completing my program at a mature age therefore it is interesting to see how the world has evolved in such short time span. The areas of information technology and computer science within my scope of interest are machine learning, system optimization, information security, human-computer interaction, human-robot interaction.&nbsp;</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "sFF75ZhH2d",
-          "_anchor": "image1-b",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
