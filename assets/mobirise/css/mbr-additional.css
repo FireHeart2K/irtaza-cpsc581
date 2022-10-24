@@ -2048,15 +2048,15 @@ a {
 .cid-tl8IzWpwfF .mbr-section-title {
   color: #65c6d4;
 }
-.cid-tl8IzWILwu {
+.cid-tl9x9fhqE5 {
   padding-top: 6rem;
   padding-bottom: 6rem;
   background-color: #ffffff;
 }
-.cid-tl8IzWILwu .mbr-fallback-image.disabled {
+.cid-tl9x9fhqE5 .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-tl8IzWILwu .mbr-fallback-image {
+.cid-tl9x9fhqE5 .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -2066,154 +2066,43 @@ a {
   top: 0;
 }
 @media (max-width: 991px) {
-  .cid-tl8IzWILwu .image-wrapper {
+  .cid-tl9x9fhqE5 .image-wrapper {
     margin-bottom: 1rem;
   }
 }
-.cid-tl8IzWILwu .row {
+.cid-tl9x9fhqE5 .row {
   flex-direction: row-reverse;
 }
-.cid-tl8IzWILwu img {
+.cid-tl9x9fhqE5 img {
   width: 100%;
 }
-.cid-tl8IzWILwu .mbr-description {
-  color: #757473;
-}
-.cid-tl8IzX0H1Q {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #eae7dc;
-}
-.cid-tl8IzX0H1Q .mbr-section-subtitle {
-  color: #40b0bf;
-}
-.cid-tl8IzX0H1Q .mbr-text {
-  color: #757473;
-}
-.cid-tl8IzXgcFT {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+.cid-tl9x2XetTt {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   background-color: #ffffff;
 }
-@media (min-width: 992px) {
-  .cid-tl8IzXgcFT .carousel {
-    min-height: 800px;
-  }
-  .cid-tl8IzXgcFT .carousel img {
-    max-height: 800px;
-    object-fit: contain;
-  }
+.cid-tl9x2XetTt .mbr-fallback-image.disabled {
+  display: none;
 }
-@media (max-width: 991px) and (min-width: 768px) {
-  .cid-tl8IzXgcFT .carousel {
-    min-height: 520px;
-  }
-  .cid-tl8IzXgcFT .carousel img {
-    max-height: 520px;
-    object-fit: contain;
-  }
-}
-@media (max-width: 767px) {
-  .cid-tl8IzXgcFT .carousel {
-    min-height: 440px;
-  }
-  .cid-tl8IzXgcFT .carousel img {
-    max-height: 440px;
-    object-fit: contain;
-  }
-  .cid-tl8IzXgcFT .container .carousel-control {
-    margin-bottom: 0;
-  }
-  .cid-tl8IzXgcFT .content-slider-wrap {
-    width: 100% !important;
-  }
-}
-.cid-tl8IzXgcFT .carousel,
-.cid-tl8IzXgcFT .carousel-inner {
-  display: flex;
-  align-items: center;
-}
-.cid-tl8IzXgcFT .item-wrapper {
-  width: 100%;
-}
-.cid-tl8IzXgcFT .carousel-caption {
-  bottom: 40px;
-}
-.cid-tl8IzXgcFT .carousel-control:hover {
-  background: #1b1b1b;
-  color: #fff;
-  opacity: 1;
-}
-.cid-tl8IzXgcFT .mobi-mbri-arrow-next {
-  margin-left: 5px;
-}
-.cid-tl8IzXgcFT .mobi-mbri-arrow-prev {
-  margin-right: 5px;
-}
-.cid-tl8IzXgcFT .container .carousel-indicators {
-  margin-bottom: 3px;
-}
-.cid-tl8IzXgcFT .carousel-control {
-  top: 50%;
-  width: 60px;
-  height: 60px;
-  margin-top: -1.5rem;
-  font-size: 22px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border: 2px solid #fff;
-  border-radius: 50%;
-  transition: all 0.3s;
-}
-.cid-tl8IzXgcFT .carousel-control.carousel-control-prev {
-  left: 0;
-  margin-left: 2.5rem;
-}
-.cid-tl8IzXgcFT .carousel-control.carousel-control-next {
-  right: 0;
-  margin-right: 2.5rem;
-}
-@media (max-width: 767px) {
-  .cid-tl8IzXgcFT .carousel-control {
-    top: auto;
-    bottom: 1rem;
-  }
-}
-.cid-tl8IzXgcFT .carousel-indicators {
-  position: absolute;
-  bottom: 0;
-  margin-bottom: 1.5rem !important;
-}
-.cid-tl8IzXgcFT .carousel-indicators li {
-  max-width: 15px;
-  height: 15px;
-  width: 15px;
-  max-height: 15px;
-  margin: 3px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border: 2px solid #fff;
-  border-radius: 50%;
-  opacity: 0.5;
-  transition: all 0.3s;
-}
-.cid-tl8IzXgcFT .carousel-indicators li.active,
-.cid-tl8IzXgcFT .carousel-indicators li:hover {
-  opacity: 0.9;
-}
-.cid-tl8IzXgcFT .carousel-indicators li::after,
-.cid-tl8IzXgcFT .carousel-indicators li::before {
-  content: none;
-}
-.cid-tl8IzXgcFT .carousel-indicators.ie-fix {
-  left: 50%;
+.cid-tl9x2XetTt .mbr-fallback-image {
   display: block;
-  width: 60%;
-  margin-left: -30%;
-  text-align: center;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
 }
-@media (max-width: 768px) {
-  .cid-tl8IzXgcFT .carousel-indicators {
-    display: none !important;
+@media (max-width: 991px) {
+  .cid-tl9x2XetTt .image-wrapper {
+    margin-bottom: 1rem;
   }
+}
+.cid-tl9x2XetTt .row {
+  flex-direction: row-reverse;
+}
+.cid-tl9x2XetTt img {
+  width: 100%;
 }
 .cid-tl8IzXT0jP {
   padding-top: 5rem;
