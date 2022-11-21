@@ -2959,7 +2959,7 @@ a {
 }
 .cid-tnMpPNYkUN {
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
 .cid-tnMpPNYkUN .mbr-fallback-image.disabled {
@@ -3259,10 +3259,14 @@ a {
 }
 .cid-tnMeuUn9wt .mbr-section-title {
   color: #65c6d4;
+  text-align: left;
 }
 .cid-tnMeuUn9wt .mbr-section-subtitle {
   color: #8e8d8a;
   text-align: center;
+}
+.cid-tnMeuUn9wt .mbr-section-subtitle P {
+  text-align: left;
 }
 .cid-tnMeuUOP8G {
   padding-top: 6rem;
